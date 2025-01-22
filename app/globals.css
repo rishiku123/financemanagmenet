@@ -159,8 +159,11 @@
   }
 
   .profile-banner {
-    @apply h-[120px] w-full bg-gradient-mesh bg-cover bg-no-repeat;
+    @apply h-[120px] w-full bg-cover bg-no-repeat;
+    background: linear-gradient(to bottom, #0747b6, #2265d8,#2f91fa);
   }
+
+
 
   .profile {
     @apply relative flex px-6 max-xl:justify-center;
